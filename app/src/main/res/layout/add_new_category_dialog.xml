@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Add New Category"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:background="@drawable/button_rect"
+        android:padding="4dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="@string/enter_product_category_name"
+        android:textColor="@color/text_color"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/edtAddNewCategory"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:inputType="textCapCharacters"
+        android:layout_marginBottom="9dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        android:paddingRight="9dp"
+        android:paddingLeft="9dp"
+        android:background="@drawable/edittext_background"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="20dp"
+        >
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:clickable="true"
+            android:text="CANCEL"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_blue"
+            android:clickable="true"
+            android:text="OK"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Sweet Mart</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sweet Mart</string>
+    <string name="nav_header_subtitle">east street camp</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="item">Item</string>
+    <string name="qty">Qty</string>
+    <string name="price_inr">Price(INR)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_product">Add Product</string>
+    <string name="enter_price">enter price</string>
+    <string name="regular_unit_price_inr">Regular Unit Price(INR)</string>
+    <string name="save_product">Save Product</string>
+    <string name="todo">TODO</string>
+    <string name="enter_product_name">enter product name</string>
+    <string name="product_details">Product Details</string>
+    <string name="lbl_new_prod">New Product</string>
+    <string name="lbl_edit_prod">Edit Product</string>
+    <string name="imageview_for_delete_product_on_bill">imageview for delete product on bill</string>
+    <string name="product_name">Product Name</string>
+    <string name="enter_product_category_name">Enter product category name</string>
+    <string name="payment">Payment</string>
+    <string name="start_new_sale">START NEW SALE</string>
+    <string name="report">Report</string>
+    <string name="print_receipt">PRINT RECEIPT</string>
+</resources>

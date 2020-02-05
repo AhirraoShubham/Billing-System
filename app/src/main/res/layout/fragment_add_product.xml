@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    tools:context=".fragments.AddProductFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearAddP">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_product"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#005b4f"
+            android:layout_margin="9dp"
+            android:fontFamily="serif"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="9dp"
+            android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="9dp"
+                android:text="@string/product_name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#aeaeae"
+                android:fontFamily="serif"/>
+
+            <EditText
+                android:id="@+id/etProductName"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="9dp"
+                android:padding="9dp"
+                android:background="@drawable/edittext_background"
+                android:hint="@string/enter_product_name"
+                android:inputType="textCapSentences"
+                android:fontFamily="serif"/>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="9dp"
+                android:text="@string/regular_unit_price_inr"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#aeaeae"
+                android:fontFamily="serif"/>
+
+            <EditText
+                android:id="@+id/etProductPrice"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_margin="9dp"
+                android:padding="9dp"
+                android:background="@drawable/edittext_background"
+                android:hint="@string/enter_price"
+                android:inputType="number"
+                android:fontFamily="serif"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <Spinner
+                   android:id="@+id/spinnerCategory"
+                   android:layout_width="270dp"
+                   android:layout_height="40dp"
+                   android:layout_marginBottom="8dp"
+                   android:layout_marginEnd="8dp"
+                   android:layout_marginStart="8dp"
+                   android:layout_marginTop="8dp"
+                   />
+               <Button
+                   android:id="@+id/btnNewCategory"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Add Category"
+                   android:textColor="#fff"
+                   android:textStyle="bold"
+                   android:padding="9dp"
+                   android:layout_margin="16dp"
+                   android:fontFamily="serif"
+                   android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                   android:background="@drawable/button"
+                   />
+           </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSaveProduct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save_product"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:padding="9dp"
+                android:layout_margin="16dp"
+                android:fontFamily="serif"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:background="@drawable/button"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="130dp"
+            android:id="@+id/ivAddImage"
+            android:src="@drawable/photo_camera"
+            android:layout_weight="0.5"
+            android:layout_marginEnd="9dp"
+            android:contentDescription="@string/todo" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

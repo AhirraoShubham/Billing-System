@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow
+        android:background="#eef5db"
+        android:padding="@dimen/dimen_8dp">
+        <TextView
+            android:id="@+id/tvBillProdName"
+            android:layout_width="27.5sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="7.0"
+            android:textColor="@color/text_color" />
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/button_custom">
+           &lt;!&ndash; <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnBillProdQty"
+                android:layout_weight="1"
+                android:textColor="#7986CB"
+                android:textStyle="bold"
+                android:text="1"
+                />&ndash;&gt;
+
+        </LinearLayout>-->
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBillProdQty"
+            android:layout_weight="1"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="1"
+            android:background="@drawable/button_custom"
+            />
+        <TextView
+            android:id="@+id/tvBillProdPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="24"
+            android:gravity="center"
+            android:textColor="@color/text_color" />
+        <TextView
+           android:id="@+id/tvBillProdTotal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="1"
+           android:textColor="@color/text_color" />
+        <ImageView
+            android:id="@+id/ivDeleteBillProd"
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_delete_black_24dp"
+            android:contentDescription="@string/imageview_for_delete_product_on_bill" />
+    </TableRow>
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvBillProdName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/item"
+            android:textColor="@color/text_color" />
+
+       &lt;!&ndash; <ImageButton
+            android:id="@+id/tvBillProdQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:text="@string/qty"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+             />&ndash;&gt;
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="38dp"
+            android:id="@+id/btnBillProdQty"
+            android:layout_weight="0.2"
+            android:background="@color/text_color"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tvBillProdPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="@string/price_inr"
+            android:textColor="@color/text_color" />
+        <ImageView
+            android:id="@+id/ivDeleteBillProd"
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:src="@drawable/delete"
+            android:contentDescription="@string/imageview_for_delete_product_on_bill" />
+    </LinearLayout>-->
+
+</TableLayout>
